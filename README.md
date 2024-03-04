@@ -1,0 +1,2 @@
+# javascript
+starting javascript journey
