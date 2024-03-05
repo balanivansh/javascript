@@ -20,3 +20,9 @@ console.log(booleanIsLoggedIn)
 // empty string => false
 // 1 => true
 
+// ********************* Operations ****************************
+
+console.log("1" + 2);
+console.log(1+"2");
+console.log("1"+2+2); // all treated as string // 122
+console.log(1+2+"2");  // 32 // conversion done
