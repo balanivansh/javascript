@@ -11,7 +11,7 @@ const gameName = new String('Vansh_vb')  // as a object, key:value pair
 // in this way we can use in-built functions
 
 console.log(gameName[0])
-console.log(gameName.__proto__);
+console.log(gameName.__proto__); //__proto__ is a way to access [[Prototype]] , it is not [[Prototype]] itself.
 
 console.log(gameName.length);
 console.log(gameName.toUpperCase()); // original value is not changed

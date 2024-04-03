@@ -11,3 +11,7 @@ accountCity = "Bengaluru"
 
 console.log(accountId);
 console.table([accountId, accountEmail, accountpwd, accountCity, accountbalance])
+
+
+//var creates a variable in  global variable, while let and const create a variable in a local varibale
+// console.table([,,,])

@@ -4,7 +4,7 @@ console.log(typeof (score));
 
 let valueInNumber = Number(score)
 console.log(typeof valueInNumber);
-console.log(valueInNumber); //value=NaN
+console.log(valueInNumber); //value=NaN  // reason ??
 
 // "33" => 33
 // "33abc" => NaN
