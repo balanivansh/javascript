@@ -38,7 +38,7 @@ const obj4 = {5: "a", 6: "b"}
 const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
-// for database values....   many obj insode an array
+// for database values....   many obj inside an array
 const users = [
     {
         id: 1,
@@ -64,20 +64,26 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+//+++++++++++++++++++ Destructuring objects +++++++++++++++++++++
 
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "vansh"
+    courseInstructor: "Mr. Hitesh"
 }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
 
+//const {courseInstructor} = course
 // console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course
 console.log(instructor);
 
+
+// +++++++++++++++++++++ API in json/array format +++++++++++
+// like objects, but key value in string
 // {
 //     "name": "vansh",
 //     "coursename": "js in hindi",

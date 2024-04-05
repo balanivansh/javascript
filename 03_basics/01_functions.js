@@ -1,18 +1,18 @@
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
+    console.log("V");
+    console.log("A");
+    console.log("N");
     console.log("S");
     console.log("H");
+    
 }
-
+// function reference -> sayMyName,  function execute -> sayMyName()
 // sayMyName()
 
 // function addTwoNumbers(number1, number2){
-
 //     console.log(number1 + number2);
 // }
+// addTwoNumbers(3, "a")   // 3a  //we have to check function
 
 function addTwoNumbers(number1, number2){
 
@@ -27,15 +27,15 @@ const result = addTwoNumbers(3, 5)
 
 
 function loginUserMessage(username = "sam"){
-    if(!username){
+    if(!username){     // or we use   if(username === undefined)  // or we gave "sam", means it will be by-default sam if we do not over-write
         console.log("PLease enter a username");
         return
     }
-    return `${username} just logged in`
+    return `${username} just logged in`   // it will not print 
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("vansh"))   //now it will print
+// console.log(loginUserMessage())    //undefined just logged in
 
 
 function calculateCartPrice(val1, val2, ...num1){
