@@ -38,27 +38,30 @@ console.log(loginUserMessage("vansh"))   //now it will print
 // console.log(loginUserMessage())    //undefined just logged in
 
 
-function calculateCartPrice(val1, val2, ...num1){
+//++++++++++++++++++++++++ function with objects +++++++++++++
+
+function calculateCartPrice(val1, val2, ...num1){   //here ... is 'rest' operator
     return num1
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 2000))
+// console.log(calculateCartPrice(200, 400, 500, 2000))  // store val 1, val2, rest put all cart items in array as num1
 
 const user = {
-    username: "hitesh",
-    prices: 199
+    username: "vansh",
+    prices: 199  
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);   //prices // undefined
 }
+// handleObject(user)   //passing our created object
 
-// handleObject(user)
-handleObject({
+handleObject({        // direct object passed
     username: "sam",
     price: 399
 })
 
+// passing array
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
@@ -66,4 +69,4 @@ function returnSecondValue(getArray){
 }
 
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
+console.log(returnSecondValue([200, 400, 500, 1000]));   // direct passed
